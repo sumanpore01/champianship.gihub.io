@@ -1,0 +1,286 @@
+@media(max-width:1024px){
+    #nav{
+        display: flex;
+        justify-content: space-between;
+        /* padding:0 30px; */
+    }
+    #nav .menu{
+   flex-direction: column;
+   position: fixed;
+   width:200px;
+   right:-250px;
+   top:73px;
+   background-color: #95C11E;
+   padding: 20px;
+   align-items: start;
+   transition: all 0.5s linear;
+   
+    }
+    #nav .icons{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav.active .menu{
+    right:0px;
+}
+#nav{
+ 
+    padding: 0 100px;
+   
+}
+
+#page1 h1{
+    font-size: 100px;
+    font-weight:800;
+    
+}
+
+#page1 h1::before{
+  display: none;
+}
+#scroller h4{
+    font-size:80px;
+    font-weight: 800;
+  
+}
+
+#player-profile-in{
+    width: 40%;
+    text-align:center;
+}
+#player-profile-in p{
+  display: none;
+}
+#cards-container {
+    /* background-color: red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    z-index: 10;
+}
+.card{
+    height: 80%;
+    width: 30%;
+    
+}
+}
+
+@media (max-width:992px){
+    #cartoon-img img{
+        width: 300px;
+        height:200px;
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    #cartoon-img p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    #cartoon-img2 img{
+        width: 300px;
+        height:200px;
+        padding: 10px;
+        border-radius: 10%;
+    }
+
+    #cartoon-img2 p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+    #nav{
+        padding: 0 50px;
+    }
+    #page1 h1{
+        font-size: 60px;
+        font-weight:800;
+        
+    }
+    #scroller h4{
+        /* display: inline-block; */
+        font-size: 60px;
+        font-weight: 700;
+        margin-right: 8PX;
+       
+        -webkit-text-stroke: 1px #95C11E;
+    }
+  
+    #player-profile:nth-child(1){
+       margin-top: 150px;
+    }
+
+    #player-profile{
+      flex-direction: column;
+    }
+    #scroller-in{
+     display: none;
+    }
+    #player-profile img{
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    #page1 p {
+      font-size: 18px;
+        width: 40%;
+    }
+    #cards-container {
+        /* background-color: red; */
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        z-index: 10;
+    }
+    .card{
+        height: 30%;
+        width: 25%;
+        
+    }
+
+    #cartoon-img{
+        flex-direction: column;
+    }
+    #cartoon-img img{
+        width: 300px;
+        height:200px;
+        padding: 5px;
+        border-radius: 10%;
+    }
+
+    #cartoon-img p{
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    #cartoon-img2{
+        flex-direction: column;
+    }
+    
+
+    #cartoon-img2 img{
+        width: 300px;
+        height:200px;
+        padding: 5px;
+        border-radius: 10%;
+    }
+
+    #cartoon-img2 p{
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width:490px) {
+    #nav{
+        padding: 0 20px;
+    }
+    #page1 h1{
+        font-size: 30px;
+        font-weight:800;
+        margin-top: 30px;
+        
+    }
+
+    #player-profile img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #page1 p {
+        font-size: 17px;
+        font-weight: 800;
+        width:50%;
+    }
+
+    #page3>p {
+        font-size: 18px;
+        font-weight: 600;
+        /* width:%; */
+        line-height: 35px;
+        text-align: center;
+    }
+/* 
+    #player-profile{
+      display: none;
+    }
+    
+    #player-profile img{
+       display: none;
+    } */
+
+    #cards-container {
+        /* background-color: red; */
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .card{
+        height: 100%;
+        width: 70%;
+        
+    }
+    #player-profile-in h3 {
+        font-size:25px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    #player-profile {
+        height: 40vh;
+        width: 100%;
+        /* background-color: red; */
+        margin-bottom: 50px;
+       
+    }
+    
+#page3 img{
+    position: absolute;
+    height: 30px;
+}
+#page3>p{
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+}
+#green-div{
+    height: 15vh;
+    margin-top: 20px;
+}
+#green-div h4 {
+    width: 80%;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+ 
+}
+}
